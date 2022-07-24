@@ -1,0 +1,18 @@
+{
+  "name": "contract_workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.js",
+    "pretest": "npm run compile",
+    "test": "mocha tests/",
+    "predeploy": "npm run compile",
+    "deploy": "node scripts/deploy.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"name": "getBalanc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_total",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Coin.sol": "Coin"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Coin.sol": {
+			"keccak256": "0xcf7d1f032cac1639964722d74cd0a9ca4bb434e75b9d508703dd11d6fc5f2cfa",
+			"license": "SimPL-2.0",
+			"urls": [
+				"bzz-raw://1806bf65252f2ff7997a0d0c8053566ac95f18adb87a5e04a6dbc28c96ffa01f",
+				"dweb:/ipfs/QmXTtYN4fbm5B9rAAPVfoJgsB2MnkvLwKWMqnENjpMmPP8"
+			]
+		}
+	},
+	"version": 1
+}
